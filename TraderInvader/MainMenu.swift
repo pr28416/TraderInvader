@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainMenu.swift
 //  TraderInvader
 //
 //  Created by Pranav Ramesh on 3/15/19.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainMenu: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
+    
+    @IBOutlet var firstbackdrop: UIImageView!
+    
 }
-
